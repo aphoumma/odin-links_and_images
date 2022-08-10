@@ -11,12 +11,19 @@
 <!-- Anchor element can link videos, pdfs, images, links, etc. -->
 <!-- Anchor needs href attribute to add hyperlink to text -->
 <!-- href = hyperlink reference -->
-
 <body>
     <h1>Homepage</h1>
       <p>Below is a "absolute link" which goes to another website on the internet.</p>
       <a href="https://www.theodinproject.com/about">Click Me</a>
       <p>Next is a "relative link</p>
-      <a href="about.html">About Page</a>
+      <a href="./pages/about.html">About Page</a>
+
+      <!--Below is img element that is absolute-->
+      <!--img element uses src attribute tell browser where image file is and then embed it into page-->
+      <!--alt attribute is used to describe an image-->
+      <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo">
+
+      <!--Below is img element that uses relative path -->
+      <img src="images/dog.jpg" alt="Picture of Dog">
 </body>
 </html>
